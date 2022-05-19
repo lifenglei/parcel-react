@@ -7,7 +7,6 @@
     "start": "npx parcel index.html",
     "build": "npx parcel build  index.html",
     "prepare": "husky install",
-    "lint-staged": "lint-staged",
     "release": "standard-version"
   },
   "keywords": [],
@@ -18,16 +17,11 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix", 
-       "git add" 
-    ]
-  },
   "devDependencies": {
     "@commitlint/cli": "^17.0.0",
     "@commitlint/config-conventional": "^17.0.0",
-    "babel-eslint": "^10.1.0",
+    "@babel/eslint-parser": "^7.5.4",
+    "@babel/core": "^7.5.4",
     "eslint": "^8.15.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-react": "^7.30.0",
