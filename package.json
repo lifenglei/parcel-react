@@ -20,7 +20,8 @@
   },
   "lint-staged": {
     "*.js": [
-      "eslint  --fix"
+      "eslint --fix", 
+       "git add" 
     ]
   },
   "devDependencies": {
