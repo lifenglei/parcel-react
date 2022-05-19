@@ -7,8 +7,9 @@
     "start": "npx parcel index.html",
     "build": "npx parcel build  index.html",
     "prepare": "husky install",
-    "test": "echo test",
-    "release": "standard-version"
+    "test": "lint-staged",
+    "release": "standard-version",
+    "eslint":"echo test123"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,11 @@
   "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
+  },
+  "lint-staged": {
+    "**/*.{js,vue}": [
+      "npm run eslint"
+    ]
   },
   "devDependencies": {
     "husky": "^8.0.1",
