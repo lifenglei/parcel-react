@@ -1,12 +1,14 @@
 {
   "name": "parcel-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "npx parcel index.html",
     "build": "npx parcel build  index.html",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "echo test",
+    "release": "standard-version"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,7 @@
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
-    "husky": "^8.0.1"
+    "husky": "^8.0.1",
+    "standard-version": "^9.5.0"
   }
 }
