@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom'
 const App = () => (
-  <div>hello parcel</div>
+  <div>hello parcel created by lifenglei</div>
 )
 ReactDom.render(<App/>,document.getElementById('app'))
