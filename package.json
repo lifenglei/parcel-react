@@ -8,7 +8,7 @@
     "build": "npx parcel build  index.html",
     "prepare": "husky install",
     "release": "standard-version",
-    "lin-staged":"echo 123"
+    "lint-staged":"lint-staged"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,9 @@
     "prettier": "^2.6.2",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
+  },
+  "lint-staged":{
+    "*.{js,jsx,ts,tsx}": ["prettier --write", "eslint","git add "]
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.0",
