@@ -134,7 +134,7 @@ scripts 设置
 // scripts
 "release": "standard-version"
 ```
-![release.png](./docImages/release.png)
+![release1.png](./docImages/release1.png)
 
 
 需要注意的是：**CHANGELOG.md 是追加写入内容的，如果你之前没有对应的内容或删了之前的内容，会导致生成的内容较少，或者不完整。**
