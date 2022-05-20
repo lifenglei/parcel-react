@@ -1,6 +1,6 @@
 {
   "name": "parcel-test",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,8 @@
     "build": "npx parcel build  index.html",
     "prepare": "husky install",
     "release": "standard-version",
-    "lint-staged":"lint-staged"
+    "lint-staged": "lint-staged",
+    "pb": "sh dep_publish.sh"
   },
   "keywords": [],
   "author": "",
@@ -18,8 +19,12 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
-  "lint-staged":{
-    "*.{js,jsx,ts,tsx}": ["prettier --write", "eslint","git add "]
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint",
+      "git add "
+    ]
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.0",
