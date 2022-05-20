@@ -26,7 +26,7 @@ git cz
 # [main caae82e] docs(readme): update readme.md, add init project description
 # 1 file changed, 7 insertions(+)
 ```
-![gits_cz.png](./docImages/git_cz.png)
+![gits_cz.png](./docImages/gits_cz.png)
 
 如图，git cz 运行后，会有如下 6 个步骤
 
